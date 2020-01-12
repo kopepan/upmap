@@ -8,16 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="resources/styles/index.css?<?= rand(1, 100000)?>">
 </head>
 	<body>
-		<div class="loader">
-			<div class="loading-text">กำลังโหลด</div>
-			<div class="spinner">
-				<div class="bubble-1"></div>
-				<div class="bubble-2"></div>
-			</div>
-    </div>
+		<?php include('resources/components/loader.php'); ?>
 	</body>
 	<script type="text/javascript" src="resources/plugins/jquery/jquery-3.4.1.min.js?<?= rand(1, 100000)?>"></script>
 	<script type="text/javascript" src="resources/plugins/leaflet/leaflet.js?<?= rand(1, 100000)?>" defer></script>
-  <script type="text/javascript" src="resources/scripts/index.js?<?= rand(1, 100000)?>"></script>
-  <script type="text/javascript" src="resources/scripts/pages/home_page.js?<?= rand(1, 100000)?>"></script>
+  <script type="module" src="resources/scripts/pages/home_page.js?<?= rand(1, 100000)?>"></script>
 </html>
