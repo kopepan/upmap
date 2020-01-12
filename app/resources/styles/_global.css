@@ -14,3 +14,7 @@ a {
   background-color: transparent;
   font-weight: normal;
 }
+
+.logo {
+  width: 50px;
+}

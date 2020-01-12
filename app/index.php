@@ -8,14 +8,18 @@
 	<title>UP Map</title>
   <link rel="stylesheet" type="text/css" href="<?=PLUGIN_PATH?>/bootstrap/css/bootstrap.min.css?<?= rand(1, 100000)?>">
   <link rel="stylesheet" type="text/css" href="<?=PLUGIN_PATH?>/leaflet/leaflet.css?<?= rand(1, 100000)?>"/>
-	<link rel="stylesheet" type="text/css" href="<?=STYLE_PATH?>/index.css?<?= rand(1, 100000)?>">
+	<?php include_once(STYLE_PATH.'/index.php'); ?>
+	<link rel="stylesheet" type="text/css" href="<?=STYLE_PATH?>/pages/home_page.css?<?= rand(1, 100000)?>">
 </head>
 	<body>
 		<?php include(COMPONENT_PATH.'/loader.php'); ?>
 		<div>
 			<div class="header">
+				<div class="logo">
+					<img class="img-fluid" src="<?=IMG_PATH?>/logo.png" alt="UP map logo">
+				</div>
 				<div>
-					<img src="<?=IMG_PATH?>/logo.png" alt="UP map logo">
+
 				</div>
 			</div>
 		</div>
