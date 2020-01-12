@@ -5,6 +5,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<title>UP Map</title>
   <link rel="stylesheet" type="text/css" href="<?=PLUGIN_PATH?>/bootstrap/css/bootstrap.min.css?<?= rand(1, 100000)?>">
   <link rel="stylesheet" type="text/css" href="<?=PLUGIN_PATH?>/leaflet/leaflet.css?<?= rand(1, 100000)?>"/>

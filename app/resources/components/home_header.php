@@ -59,4 +59,14 @@
     align-items: center;
     margin-left: 10px;
   }
+  @media screen and (max-width: 1024px) {
+    .logo {
+      width: calc(20% - 15px);
+      justify-content: center;
+      min-width: 0;
+    }
+    .logo-text {
+      display: none;
+    }
+  }
 </style>
